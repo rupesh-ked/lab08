@@ -1,0 +1,138 @@
+body {
+    background-color: beige;
+    font-size: 20px;
+    font-family: cursive;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/58/Spicy_Pepper_Chicken_Curry.jpg');
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2 {
+    color: rebeccapurple;
+    font-family: cursive;
+    background-color: grey;
+    margin: 0;
+    opacity: .7;
+    padding: 10px;
+}
+
+#wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li {
+    font-family: initial;
+    font-size: 15px;
+    background-color: #000;
+    color: #fff;
+    opacity: .5;
+}
+
+nav {
+    float: left;
+    width: 250px;
+    padding: 10px;
+}
+
+main {
+    margin-left: 230px;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    clear: both;
+    background-color: whitesmoke;
+    opacity: .7;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/58/Spicy_Pepper_Chicken_Curry.jpg'); 
+    }
+
+    nav {
+        width: 100%; 
+        float: none; 
+    }
+
+    main {
+        margin-left: 0;
+    }
+
+    h1, h2 {
+        text-align: center; 
+    }}
+.nutritional-table {
+        width: 100%;
+        margin-top: 20px;
+        border-collapse: collapse;
+        background-color: whitesmoke;
+        opacity: .8;
+    }
+.nutritional-table th, .nutritional-table td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+.nutritional-table caption {
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 10px;
+        background-color: whitesmoke;
+        opacity: .8;
+}
+
+#contactForm {
+    margin-top: 20px;
+    width: 50%;
+    font-size: 13px;
+}
+
+fieldset {
+    border: 2px solid rebeccapurple;
+}
+
+legend {
+    color: rebeccapurple;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: rebeccapurple;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="checkbox"],
+input[type="radio"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 10px;
+    background-color: rebeccapurple;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #68217A;
+}
+

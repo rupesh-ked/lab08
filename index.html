@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My favourite recipe</title>
+    <link rel="stylesheet" type="text/css" href="recipe.css">
+    <marquee behavior="scroll" direction="right">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaR9b8cuSQbqWfmTvd-rGOS6-TCQkyU2nvLg&usqp=CAU" width="27%" height="170">
+    </marquee>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Chicken Curry</h1>
+            <h2> Page Source: International Cuisine</h2>
+        </header>
+        <nav>
+            <ul>
+                <li>1 teaspoon turmeric</li>
+                <li>1/4 teaspoon salt</li>
+                <li>bone-in/boneless chicken</li>
+                <li>3 tablespoon vegetable oil</li>
+                <li>1 tablespoon ginger and garlic paste</li>
+                <li>chilli powder as preferred</li>
+                <li>2 large sliced tomatoes</li>
+                <li>garam masala</li>
+            </ul>
+        </nav>
+        <main>
+            <ol>
+                <li>mix turmeric and salt together</li>
+                <li>rub it with chicken and let in marinate for 30 mins</li>
+                <li>heat the oil over medium-heat</li>
+                <li>Add garlic, ginger, chilli powder and some garam masala and stir all</li>
+                <li>drop the marinated chicken and stir fry for 4-6 minutes, then add tomatoes</li>
+                <li>Bring it to boil, then decrease the heat and simmer it for next 15-20 minutes</li>
+                <li>Sprinkle with some chopped cilantro and serve it</li>
+            </ol>
+        </main>
+        <footer>
+            <p>It's a combination of spices and so many flavors that brings a different taste to it. Also, my mother used to make it for me when I was at home, so it carries a lot of memories for me as well. It brings a feeling of home to me.</p>
+            <a href="https://www.internationalcuisine.com/nepali-chicken-tarkari/">International Cuisine</a>
+        </footer>
+
+        <!-- Nutritional Table -->
+        <table class="nutritional-table">
+            <caption>Nutritional Information</caption>
+            <thead>
+                <tr>
+                    <th>Nutrient</th>
+                    <th>Amount</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Calories</td>
+                    <td>350</td>
+                </tr>
+                <tr>
+                    <td>Protein</td>
+                    <td>25g</td>
+                </tr>
+                <tr>
+                    <td>Fat</td>
+                    <td>15g</td>
+                </tr>
+                <!-- Add more rows for other nutrients -->
+            </tbody>
+        </table>
+
+
+        <form id="contactForm" action="#" method="post">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+
+                <label>Favorite Cuisines:</label>
+                
+                <label for="nepalese">Nepalese</label><input type="checkbox" id="nepalese" name="cuisine" value="Nepalese">
+                
+                <label for="indian">Indian</label><input type="checkbox" id="indian" name="cuisine" value="Indian">
+                
+                <label for="chinese">Chinese</label><input type="checkbox" id="chinese" name="cuisine" value="Chinese">
+                
+                <label for="mexican">Mexican</label><input type="checkbox" id="Mexican" name="cuisine" value="Mexican">
+                
+                <label for="jamaican">Jamaican</label><input type="checkbox" id="jamaican" name="cuisine" value="Jamaican">
+                
+                <label for="arabic">Arabic</label><input type="checkbox" id="arabic" name="cuisine" value="Arabic">
+                
+                <label for="italian">Italian</label><input type="checkbox" id="Italian" name="cuisine" value="Italian">
+
+                <label>Subscribe to Mailing List:</label>
+                <input type="radio" id="yes" name="subscribe" value="yes">
+                <label for="yes">Yes</label>
+                <input type="radio" id="no" name="subscribe" value="no">
+                <label for="no">No</label>
+
+                <div class="buttons">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
